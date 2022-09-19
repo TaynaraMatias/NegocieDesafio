@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/consultaCEP.js"></script>
+    <title>Negocie SKY</title>
+</head>
+<body>
+    <header>
+        <div class="headerstyle">
+            <img src="./img/sky-negocie-online.png">
+
+        </div>
+      
+    </header>
+
+    <main class="negociacao">
+
+        <section class="perfil-negociador card">
+            <p class="titulo-negociacao">Minha fatura</p>
+           
+
+            <div id="perfil">
+
+                <div style="display: inline-block; margin-right: 5px; vertical-align: top;">
+                    <img src="./img/icon-documento-gray.b7ddec09138d5e607923.png" width="24"height="24" viewBox="0 0 24 24">
+                </div>
+                
+                
+                <p> <span style="color: rgb(150, 150, 150)">CPF:</span> ****9589011</p>
+                <p> <span style="color: rgb(150, 150, 150)">Nome:</span> Terezinha ******** ***to</p>
+                <p> <span style="color: rgb(150, 150, 150)">Assinatura:</span> 1518561678</p>
+
+                <hr style="margin: 15px;  border: 0; border-top: 1px solid #7e7e7e;">
+    
+                <div style="display: inline-block; margin-right: 5px; vertical-align: top;">
+                    <img src="./img/icon-fatura-gray.e74da97598a6bac64614.png" width="24"height="24" viewBox="0 0 24 24">
+                </div>
+                
+                <div style="display: inline-block;">
+                    <p> <span style="color: rgb(150, 150, 150)">Fatura:</span></p>
+                </div>
+                
+            </div>
+           
+            
+        </section>
+
+        <section class="negociar-fatura card card-esquerda">
+            
+            <p class="titulo-negociacao">Negociar Fatura</p>
+
+            <div class="apresentacao">
+                <p>Preparamos algumas opções de pagamento para você escolher a que melhor cabe no seu bolsa e voltar a se divertir com nossa programação</p>
+
+            </div>
+            
+            <div id="consulta">
+
+                <h2>Consulte seu CEP</h2>
+            
+                <label for="cep">CEP: </label>
+                <input type="text" id="cep" maxlength="9"onkeyup="mascaraCEP()" required>
+                </a>
+                <div class="botao">
+                  
+                    <button class="consultar" id="bt-consultar" onclick="irParaPaginaDeResultado()" >Consultar</button>
+                </div>
+            </div>
+           
+            
+
+        </section>
+
+       
+      
+        
+    </main>
+
+    <footer class="container">
+        <div class="footerstyle">
+            <p>Todas as marcas SKY e qualquer propriedade intelectual inserida nelas são de propriedade da SKY Internacional AG e usada pela SKY Serviços de Banda Larga LTDA mediante licença</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</body>
+</html>

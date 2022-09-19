@@ -1,0 +1,171 @@
+@media(max-width:600px){
+    * {
+        margin: 0;
+        padding: 0;
+      }
+
+    main{
+        padding: 15px
+    }
+
+    .icon-negociacao{
+        max-width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 60px;
+    }
+
+    .titulo-negociacao{
+        padding: 10px;
+        font-size: 18px;
+        /*font-weight: bold;*/
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .negociacao{
+        background-color: whitesmoke;
+    }
+
+    .perfil-negociador{
+        background-color:white;
+        border-radius: 15px;
+        padding: 10px;
+        margin: 10px;
+    
+    }
+
+    #perfil{
+        margin: 10px;
+        display: inline-block;
+    }
+
+    .apresentacao{
+        margin: 10px;
+    }
+
+    .negociar-fatura{
+        background-color:white;
+        border-radius: 15px;
+        padding: 10px;
+        margin: 10px;
+    
+    }
+
+    .contato{
+        display: inline;
+        margin-left: 40px;
+    }
+
+    #consulta{
+        margin: 10px;
+    }
+    .headerstyle{
+        background-color: red;
+    }
+    
+    
+    .boas-vindas{
+        text-align: center;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        
+    }
+
+    #boas-vindas{
+        margin: 20px;
+    }
+    
+    .index-paragrafo{
+        text-align: center;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+        
+    }
+    
+    .botao{
+        width: 400px;
+        height: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .acesso, .voltar, .consultar{
+        color: red;
+        font-weight: bold;
+        background-color:white;
+        border-radius: 15px;
+        border-color: red;;
+        height: 40px;
+        width: 90px;
+        cursor: pointer;
+        align-items: center;
+        position: relative;
+        margin: 10px;
+        
+    }
+  
+    .acesso:hover{
+        transform: scale(1.05);
+    }
+
+    /*.container{
+        height:100vh;
+        margin:0;
+    
+    }*/
+
+    #cepDigitado{
+        color: red;
+        font-weight: bold;
+    }
+    
+    .footerstyle{
+        background-color: red;
+        display: block;
+       position: fixed;
+        width: 100%;
+        height:100vh;
+        
+    }
+
+    .footerstyle p{
+        color:white;
+        text-align: center;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+    }
+    
+    .footeraviso{
+        color:white;
+        text-align: center;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+    }
+
+  /* .card{
+        width: 47%; 
+        display: inline-block;
+    }
+    .card-esquerda{
+        margin-left: 2px;
+        display: inline; 
+        float: right;
+    }
+    
+    @media only screen and (max-width: 800px) {
+        .card{
+            width: 100%; 
+        }
+        .card-esquerda {
+            float: none;
+            display: inline-block;
+        }
+    }   */ 
+}
+
+
